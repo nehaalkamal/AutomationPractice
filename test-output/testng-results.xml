@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="13" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Suite" duration-ms="61237" started-at="2020-12-27T14:16:57 EET" finished-at="2020-12-27T14:17:59 EET">
+    <groups>
+    </groups>
+    <test name="all_tests" duration-ms="61237" started-at="2020-12-27T14:16:57 EET" finished-at="2020-12-27T14:17:59 EET">
+      <class name="tests.OrderHistoryTest">
+        <test-method status="PASS" signature="orderFromHistorysucessfully()[pri:0, instance:tests.OrderHistoryTest@5434e40c]" name="orderFromHistorysucessfully" duration-ms="17677" started-at="2020-12-27T14:17:41 EET" finished-at="2020-12-27T14:17:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderFromHistorysucessfully -->
+      </class> <!-- tests.OrderHistoryTest -->
+      <class name="tests.RegistrationTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.RegistrationTest@187e5235]" name="startDriver" is-config="true" duration-ms="13672" started-at="2020-12-27T14:16:44 EET" finished-at="2020-12-27T14:16:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userRediretToSiginpage()[pri:1, instance:tests.RegistrationTest@187e5235]" name="userRediretToSiginpage" duration-ms="2495" started-at="2020-12-27T14:16:57 EET" finished-at="2020-12-27T14:17:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRediretToSiginpage -->
+        <test-method status="PASS" signature="userEnterDataToRegister()[pri:0, instance:tests.RegistrationTest@187e5235]" name="userEnterDataToRegister" duration-ms="5754" started-at="2020-12-27T14:17:00 EET" depends-on-methods="tests.RegistrationTest.userRediretToSiginpage" finished-at="2020-12-27T14:17:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userEnterDataToRegister -->
+        <test-method status="PASS" signature="checkuserRegisterSucessfully()[pri:0, instance:tests.RegistrationTest@187e5235]" name="checkuserRegisterSucessfully" duration-ms="53" started-at="2020-12-27T14:17:06 EET" depends-on-methods="tests.RegistrationTest.userEnterDataToRegister" finished-at="2020-12-27T14:17:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserRegisterSucessfully -->
+        <test-method status="PASS" signature="userRegisterLogOutsucessfully()[pri:0, instance:tests.RegistrationTest@187e5235]" name="userRegisterLogOutsucessfully" duration-ms="2393" started-at="2020-12-27T14:17:06 EET" depends-on-methods="tests.RegistrationTest.userEnterDataToRegister" finished-at="2020-12-27T14:17:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterLogOutsucessfully -->
+        <test-method status="PASS" signature="checkuserLoginsucessfully()[pri:0, instance:tests.RegistrationTest@187e5235]" name="checkuserLoginsucessfully" duration-ms="3920" started-at="2020-12-27T14:17:08 EET" depends-on-methods="tests.RegistrationTest.userRegisterLogOutsucessfully" finished-at="2020-12-27T14:17:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserLoginsucessfully -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.RegistrationTest@187e5235]" name="stopDriver" is-config="true" duration-ms="1206" started-at="2020-12-27T14:17:59 EET" finished-at="2020-12-27T14:18:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.SearchProductTest">
+        <test-method status="PASS" signature="searchBlouses()[pri:0, instance:tests.SearchProductTest@d1d8e1a]" name="searchBlouses" duration-ms="6968" started-at="2020-12-27T14:17:12 EET" finished-at="2020-12-27T14:17:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBlouses -->
+        <test-method status="PASS" signature="SelectResultedProduct()[pri:0, instance:tests.SearchProductTest@d1d8e1a]" name="SelectResultedProduct" duration-ms="3081" started-at="2020-12-27T14:17:19 EET" depends-on-methods="tests.SearchProductTest.searchBlouses" finished-at="2020-12-27T14:17:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectResultedProduct -->
+        <test-method status="PASS" signature="checkProceedCheckOutsuccessfully()[pri:0, instance:tests.SearchProductTest@d1d8e1a]" name="checkProceedCheckOutsuccessfully" duration-ms="18845" started-at="2020-12-27T14:17:22 EET" depends-on-methods="tests.SearchProductTest.SelectResultedProduct" finished-at="2020-12-27T14:17:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProceedCheckOutsuccessfully -->
+      </class> <!-- tests.SearchProductTest -->
+    </test> <!-- all_tests -->
+  </suite> <!-- Testing Suite -->
+</testng-results>
